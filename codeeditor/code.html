@@ -1,0 +1,45 @@
+<head>
+  <title>Edit Live</title>
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.16.0/codemirror.css' rel='stylesheet'>
+  <!-- The link above loaded the core css -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.16.0/codemirror.js'></script>
+<!-- The script above loaded the core editor --><link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-blue.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.16.0/mode/xml/xml.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.16.0/mode/css/css.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.16.0/mode/javascript/javascript.js'></script>
+<link rel="stylesheet" href="style.css">
+<!-- The script above loaded the highlighting for JavaScript -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+  rel="stylesheet"
+/>
+</head>
+<body>
+  <div class="header">
+    <button type="button" class="btn btn-primary" id="run-btn">Run</button>
+  </div>
+
+  <div class="editor">
+    <div class="code">
+      <div class="html" id="html">
+      </div>
+      <ol></ol>
+      <div class="css" id="css">
+      </div>
+      <ol></ol>
+      <div class="js" id="js">
+      </div>
+      </div>
+  </div>
+  
+  <ol></ol>
+
+  <div class="preview">
+    <iframe id="preview-window"></iframe>
+  </div>
+     
+<script src="script.js"></script>
+</body>

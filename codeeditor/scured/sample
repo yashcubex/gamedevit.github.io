@@ -1,0 +1,40 @@
+<head>
+  <title>CodeMirror Demo</title>
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.16.0/codemirror.css' rel='stylesheet'>
+  <!-- The link above loaded the core css -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.16.0/codemirror.js'></script>
+<!-- The script above loaded the core editor -->
+  
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.16.0/mode/xml/xml.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.16.0/mode/css/css.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.16.0/mode/javascript/javascript.js'></script>
+<!-- The script above loaded the highlighting for JavaScript -->
+<link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.52.2/theme/panda-syntax.min.css">
+</head>
+<body>
+  <div class="header">
+    <button id="run-btn">Run</button>
+  </div>
+
+  <div class="editor">
+    <div class="code">
+      <div class="html" id="html">
+      </div>
+      <ol></ol>
+      <div class="css" id="css">
+      </div>
+      <ol></ol>
+      <div class="js" id="js">
+      </div>
+      </div>
+  </div>
+  
+  <ol></ol>
+
+  <div class="preview">
+    <iframe id="preview-window"></iframe>
+  </div>
+     
+<script src="script.js"></script>
+</body>
